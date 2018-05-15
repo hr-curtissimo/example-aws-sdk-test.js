@@ -8,3 +8,15 @@ of the repository pattern can be found in `src/caller.js`.
 
 You can find two tests, one success scenario and one failure scenario, in
 the `test/test-dynamo-with-aws-sdk-mock.js` module.
+
+After you clone the repository, restore the dependencies with
+
+```
+npm install
+```
+
+To run the tests, you can type
+
+```
+npx mocha
+```
